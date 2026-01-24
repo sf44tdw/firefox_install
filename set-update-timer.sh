@@ -1,14 +1,14 @@
 #!/bin/bash
 
-ls -l "flatpak-update.*"
+ls -l flatpak-update.*
 echo
-chmod 700 "flatpak-update.*"
+chmod 700 flatpak-update.*
 echo
-ls -l "flatpak-update.*" "/etc/systemd/system/flatpak-update.*"
+ls -l flatpak-update.* /etc/systemd/system/flatpak-update.*
 echo
-cp -f "flatpak-update.*" /etc/systemd/system/ || exit 1
+cp -f flatpak-update.* /etc/systemd/system/ || exit 1
 echo
-ls -l "flatpak-update.*" "/etc/systemd/system/flatpak-update.*"
+ls -l flatpak-update.* /etc/systemd/system/flatpak-update.*
 
 
 systemctl daemon-reload || exit 2
