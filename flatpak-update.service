@@ -1,5 +1,0 @@
-[Unit]
-Description=flatpaksをアップデート
-
-[Service]
-ExecStart=flatpak update --noninteractive
