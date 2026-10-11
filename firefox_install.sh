@@ -12,3 +12,7 @@ flatpak remote-add --if-not-exists flathub https://dl.flathub.org/repo/flathub.f
 echo 'flatpakへのflathub登録成功。'
 flatpak install -y flathub org.mozilla.firefox
 echo 'firefoxインストール成功。'
+
+# rpm版のfirefoxがあれば削除する。
+dnf -y remove firefox
+
