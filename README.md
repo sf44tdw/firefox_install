@@ -1,2 +1,2 @@
 # firefox_install
-flatpakからのfirefoxのインストールと定期アップデートの設定をする。
+flatpakからのfirefoxのインストールの設定をする。
